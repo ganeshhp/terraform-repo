@@ -1,0 +1,500 @@
+   82  clear
+   83  git clone https://github.com/ganeshhp/helloworldweb.git
+   84  cd helloworldweb
+   85  ls
+   86  git status
+   87  clear
+   88  git og
+   89  git log
+   90  clear
+   91  git cat-file 98b18d7e20
+   92  git cat-file 98b18d7e20 -p
+   93  git cat-file da7a570e6 -p
+   94  clear
+   95  cd .git
+   96  ls
+   97  ll
+   98  cd objects/
+   99  ll
+  100  cd ..
+  101  cd refs/
+  102  ls
+  103  ll
+  104  cd heads/
+  105  LL
+  106  ll
+  107  cat dev 
+  108  git branch
+  109  cat master 
+  110  git log
+  111  ls
+  112  cd ..
+  113  ls
+  114  ll
+  115  cat stash 
+  116  git stash
+  117  cd ../..
+  118  git stash
+  119  cat .git/refs/stash 
+  120  git cat-file 490be6299556
+  121  git cat-file 490be6299556 -p
+  122  git cat-file 98b18d7e2 -p
+  123  git cat-file da7a570e6e -p
+  124  git cat-file 2b3aa2beb
+  125  git cat-file 2b3aa2beb -p
+  126  clear
+  127  cd .git
+  128  ll
+  129  git stash list
+  130  git stash show
+  131  cd ../..
+  132  cd helloworldweb
+  133  git stash show
+  134  git stash list
+  135  clear
+  136  git
+  137  clear
+  138  ls
+  139  ll
+  140  cd .git
+  141  ls
+  142  ll
+  143  cd refs/
+  144  ls
+  145  ll
+  146  git remote
+  147  clear
+  148  git remote
+  149  git remote origin show
+  150  cd ../..
+  151  git remote origin show
+  152  git remote
+  153  git remote show origin
+  154  clear
+  155  git remote add newref https://github.com/ganeshhp/sample.git
+  156  git remote
+  157  git branch
+  158  git status
+  159  vim file101 
+  160  git status
+  161  git stash
+  162  git status
+  163  git stash aply
+  164  git stash apply
+  165  git log
+  166  git tag -a uatcompleted -m "activities completed"
+  167  git tag
+  168  clear
+  169  mvn
+  170  mvn -version
+  171  clear
+  172  pwd
+  173  mvn package
+  174  clear
+  175  clear
+  176  clear
+  177  git clone https://github.com/ganeshhp/helloworldweb.git
+  178  cd helloworldweb
+  179  ls
+  180  ll
+  181  ls -la
+  182  cd .git
+  183  ll
+  184  cd objects/
+  185  ll
+  186  git log
+  187  ll
+  188  cd 13/
+  189  ll
+  190  cd ..
+  191  git log
+  192  clear
+  193  ll
+  194  git log
+  195  cd ../..
+  196  clear
+  197  git cat-file 98b18d7e20 -p
+  198  git cat-file da7a570e6e -p
+  199  cd .git
+  200  ll
+  201  cd objects/
+  202  cd ..
+  203  cd refs/
+  204  ll
+  205  clear
+  206  git remote 
+  207  git remote show newref
+  208  git status
+  209  cd ../..
+  210  cd .git/refs/
+  211  ll
+  212  cd heads/
+  213  ll
+  214  ll
+  215  clear
+  216  git branch
+  217  ll
+  218  cat dev 
+  219  cat master 
+  220  clear
+  221  mvn -version
+  222  clear
+  223  cd ../../..
+  224  clear
+  225  mvn package
+  226  clear
+  227  mvn install
+  228  clear
+  229  git log
+  230  exit
+  231  git clone https://github.com/ganeshhp/helloworldweb.git
+  232  cd helloworldweb
+  233  ls
+  234  ll
+  235  ls -la
+  236  clear
+  237  ll
+  238  ls -la
+  239  cd .git
+  240  ls
+  241  cd objects/
+  242  ls
+  243  cd ..
+  244  cd ../..
+  245  rm -Rf helloworldweb
+  246  git clone https://github.com/ganeshhp/helloworldweb.git
+  247  cd helloworldweb
+  248  ls -la
+  249  git log
+  250  clear
+  251  cd .git
+  252  ll
+  253  ll objects/
+  254  cd ..
+  255  ll
+  256  echo "hello world ll">> file10.txt
+  257  ll
+  258  git status
+  259  git add file10.txt 
+  260  git status
+  261  clear
+  262  git commit 
+  263  git log
+  264  clear
+  265  cd .git/objects/
+  266  ll
+  267  cd 7f/
+  268  ll
+  269  clear
+  270  git cat-file 7fa84dda5ae61
+  271  git cat-file 7fa84dda5ae61 -p
+  272  git cat-file 81b8f40aa6ca7 -p
+  273  cd ../../..
+  274  cd he
+  275  git log
+  276  clear
+  277  git remote
+  278  git remote show origin
+  279  git remote add bitbucket https://automationfactory@bitbucket.org/automationfactory/samplerepo.git
+  280  git remote
+  281  git push bitbucket master
+  282  clear
+  283  ls
+  284  ll
+  285  git log
+  286  qclear
+  287  git branch
+  288  clear
+  289  git branch
+  290  git branch dev
+  291  git branch
+  292  git checkout dev
+  293  git branch
+  294  clear
+  295  git push bitbucket master
+  296  clear
+  297  git branch
+  298  git branch feature1
+  299  git branch
+  300  git checkout master
+  301  git log
+  302  git status
+  303  echo "sample test added to file1" >> file1
+  304  git status
+  305  git add .
+  306  git commit -m "file1 midified for testing"
+  307  git log
+  308  git checkout dev
+  309  clear
+  310  git branch
+  311  git rebase master
+  312  cd .git
+  313  cd refs/
+  314  ll
+  315  cd heads/
+  316  ll
+  317  cat dev 
+  318  cat master 
+  319  cat feature1 
+  320  cd ../../..
+  321  git checkout feature1 
+  322  git rebase dev
+  323  git log
+  324  clear
+  325  git checkout dev
+  326  clear
+  327  ll
+  328  echo "new file" >> file11.txt
+  329  git add file11.txt 
+  330  git commit -m "file11.txt added to repo"
+  331  git status
+  332  git checkout feature1 
+  333  echo "modified file" >> file11.txt
+  334  git add .
+  335  git commit -m "file modified"
+  336  git  log
+  337  git status
+  338  git log
+  339  git checkout dev
+  340  git merge feature1 
+  341  vim file11.txt 
+  342  git status
+  343  git add .
+  344  git commit -m "file updated to resolve conflict"
+  345  git log
+  346  git log --graph
+  347  git checkout master
+  348  git log --graph
+  349  git merge dev
+  350  ll
+  351  git log
+  352  git push bitbucket master
+  353  clear
+  354  git log
+  355  git diff acd30a6 6751c8e936
+  356  clear
+  357  git
+  358  git
+  359  git status
+  360  git branched
+  361  git branch
+  362  git checkout feature1 
+  363  git status
+  364  git checkout master
+  365  git status
+  366  git pull
+  367  git status
+  368  pwd
+  369  cd c:\projects
+  370  ls
+  371  pwd
+  372  clear
+  373  git clone https://github.com/ganeshhp/helloworldweb.git
+  374  ls
+  375  cd helloworldweb/
+  376  ll
+  377  clear
+  378  mvn -version
+  379  mvn validate
+  380  clear
+  381  mvn package
+  382  exit
+  383  ssh vagrant@192.168.33.180
+  384  ping 192.168.33.180
+  385  ssh root@192.168.33.180
+  386  cd c:\
+  387  cd Users/
+  388  cd ganesh/.ssh/
+  389  ls
+  390  cd
+  391  ll
+  392  cd .ssh/
+  393  ll
+  394  vi known_hosts 
+  395  ssh root@192.168.33.180
+  396  ssh vagrant@192.168.33.180
+  397  ssh vagrant@192.168.33.22
+  398  cd ~/.ssh/
+  399  ll
+  400  vi known_hosts 
+  401  ssh vagrant@192.168.33.22
+  402  ssh root@192.168.33.22
+  403  pwd
+  404  cd c:\
+  405  cd project
+  406  ls
+  407  cd ../projects
+  408  ls
+  409  cd helloworldweb/
+  410  ls
+  411  ll
+  412  cd src/main/
+  413  ls
+  414  cd webapp/
+  415  ls
+  416  vi index.jsp
+  417  vi index.jsp
+  418  ls
+  419  cd ../..
+  420  cd ..
+  421  ls
+  422  git status
+  423  git add src/main/webapp/index.jsp 
+  424  git commit -m "updated file"
+  425  clear
+  426  cd ..
+  427  git clone https://github.com/ganeshhp/Maven-petclinic-project.git
+  428  cd helloworldweb/
+  429  cler
+  430  clear
+  431  clear
+  432  cd src/main/webapp/
+  433  ll
+  434  cd ../../..
+  435  cd ..
+  436  cd C:\Users\ganesh\Desktop\DevOps Training\Cognixia\Jenkinsfile
+  437  cd c:\
+  438  cd Users/ganesh/Desktop/
+  439  cd DevOps\ Training/
+  440  ls
+  441  cd Cognixia
+  442  cd Jenkinsfile/
+  443  ls
+  444  ll
+  445  git init
+  446  git add .
+  447  git commit -m "new repo"
+  448  git push https://github.com/ganeshhp/jenkinsfiles.git master
+  449  exit
+  450  cd Desktop/DevOps\ Training/
+  451  cd Congnixia
+  452  cd Cognixia
+  453  cd Jenkinsfile/
+  454  ls
+  455  git status
+  456  git add .
+  457  git commit -m "updated Jenkinsfile"
+  458  git push origin master
+  459  git push https://github.com/ganeshhp/jenkinsfiles.git master
+  460  mv jenkinsfile-scrpited jenkinsfile-scripted
+  461  git add .
+  462  git commit -m "updated Jenkinsfile"
+  463  git push https://github.com/ganeshhp/jenkinsfiles.git master
+  464  clear
+  465  cd ~
+  466  clear
+  467  pwd
+  468  pwd
+  469  cd DevOps Training/
+  470  EXIT
+  471  exit
+  472  pwd
+  473  ll
+  474  ls
+  475  cd Desktop/DevOps\ Training/Cognixia/
+  476  ls
+  477  cd Jenkinsfile/
+  478  git status
+  479  git add .
+  480  git commit -m "kubernetes files"
+  481  git push https://github.com/ganeshhp/jenkinsfiles.git master
+  482  cd Desktop/DevOps\ Training/Cognixia/
+  483  cd Jenkins
+  484  cd Jenkinsfile/
+  485  ls
+  486  git status
+  487  git add .
+  488  git commit -m "documents added"
+  489  git push https://github.com/ganeshhp/jenkinsfiles.git master
+  490  exit
+  491  cd c:\
+  492  cd terraform
+  493  cd firstproject/
+  494  clear
+  495  ls
+  496  ll
+  497  clear
+  498  ls
+  499  git init
+  500  exit
+  501  cd c:cd
+  502  cd c:\
+  503  cd terraform
+  504  cd firstproject/
+  505  clear
+  506  git status
+  507  clear
+  508  git add .
+  509  git commit -m "terraform files added"
+  510  clear
+  511  git status
+  512  ls
+  513  cd .git/
+  514  ll
+  515  cd objects/
+  516  clear
+  517  ll
+  518  clear
+  519  git log
+  520  echo "new file" >> file.txt
+  521  git add .
+  522  cd ../..
+  523  echo "new file" >> file.txt
+  524  git add .
+  525  git commit -m "new file added"
+  526  git status
+  527  git  log
+  528  git status
+  529  git add .
+  530  git commit -m ".tf file modified"
+  531  git status
+  532  git  log
+  533  clear
+  534  git branch
+  535  git branch dev
+  536  git branch
+  537  git checkout dev
+  538  git branch
+  539  clear
+  540  git status
+  541  git add .
+  542  git commit -m "file.txt deleted"
+  543  git status
+  544  clear
+  545  git checkout master
+  546  git status
+  547  git checkout dev
+  548  ls
+  549  git status
+  550  clear
+  551  git status
+  552  ll
+  553  vi new.tf.tmp 
+  554  git add new.tf.tmp 
+  555  git commit -m "new.tf file updated"
+  556  git checkout master
+  557  vi new.tf.tmp 
+  558  git add .
+  559  git commit -m "file updated"
+  560  git status
+  561  git checkout dev
+  562  git status
+  563  git checkout master
+  564  git merge dev
+  565  vi new.tf.tmp 
+  566  git add .
+  567  git commit -m ".tf file modified"
+  568  git status
+  569  git branch release1
+  570  git log
+  571  git checkout release1 
+  572  ll
+  573  git checkout dev
+  574  git log
+  575  git checkout master
+  576  git log
+  577  clear
+  578  git remote
+  579  history
+  580  git history > list-of-commands.txt
+  581  history > list-of-commands.txt
